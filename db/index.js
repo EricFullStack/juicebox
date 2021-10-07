@@ -10,7 +10,7 @@ async function getAllUsers() {
           `
   );
 
-  return rows;
+  return {rows};
 }
 
 async function createUser({ username, password }) {
